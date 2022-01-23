@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "WorkSans-700";
+  src: url("../fonts/WorkSans-Bold-700.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "WorkSans-600";
+  src: url("../fonts/WorkSans-SemiBold-600.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "WorkSans-500";
+  src: url("../fonts/WorkSans-Medium-500.woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "WorkSans-400";
+  src: url("../fonts/WorkSans-Regular-400.woff2");
+  font-display: swap;
+}
