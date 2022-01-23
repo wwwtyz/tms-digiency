@@ -155,6 +155,7 @@ a {
   max-width: 40px;
   max-height: 40px;
   padding: 10px 5px;
+  background: #fff;
 }
 
 .hoved--icon {
@@ -291,4 +292,65 @@ a {
   line-height: 1.25;
   color: #7b7b7b;
   text-transform: capitalize;
+}
+
+/*==========Team Member==========*/
+
+.section--wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.info--wrap {
+  padding: 5rem 20rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person {
+  position: relative;
+  box-shadow: 0px 1px 10px #0000001a;
+}
+
+.person:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.hidden-icons {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  height: 10%;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.person:hover .hidden-icons {
+  opacity: 1;
+}
+
+.person--box > h3 {
+  padding: 1rem;
+  font-family: "Work Sans-500", serif;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.person--box > p {
+  padding: 1rem;
+  font-family: "Work Sans-400", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7b7b7b;
+}
+
+.team--wrap {
+  padding-bottom: 5rem;
 }
