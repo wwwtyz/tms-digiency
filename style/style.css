@@ -104,6 +104,10 @@ a {
   align-items: flex-start;
 }
 
+.section--name {
+  text-transform: capitalize;
+}
+
 .section--heading {
   padding: 1rem 0;
   font-family: "WorkSans-700", serif;
@@ -234,4 +238,57 @@ a {
 .page--text {
   text-align: center;
   margin: 1.2rem 2rem;
+}
+
+/*==========Our Expereince==========*/
+.expirience {
+  align-items: normal;
+}
+
+.experience--wrap {
+  display: flex;
+}
+.section--content {
+  display: flex;
+  align-items: flex-start;
+}
+
+.section--content:last-child {
+  align-items: flex-end;
+}
+
+.content--wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  margin: 1rem;
+  width: 15rem;
+  height: 16rem;
+  background: #fff;
+}
+
+.box > h4 {
+  padding: 1rem;
+  font-family: "Work Sans-500", serif;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.25;
+  color: #373737;
+}
+
+.box > p {
+  padding: 1rem;
+  font-family: "Work Sans-500", serif;
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: #7b7b7b;
+  text-transform: capitalize;
 }
